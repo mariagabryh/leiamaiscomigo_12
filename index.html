@@ -1,33 +1,173 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leia Mais Comigo / Inicio</title>
-    <link rel="stylesheet" href="./css/home.css">
+    <title>Leia mais comigo | Inicio</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/home.css">
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul class="nav-top">
+        <nav class="nav-top">
+            <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Galeria</a></li>
                 <li><a href="#">Agenda</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-        <div class="header-content">
-            <div class="header-text">
-                <h1>Titulo</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum aut, inventore aperiam enim odit numquam. Animi aliquam veritatis inventore laborum eum nisi quibusdam neque vitae, nulla unde, sequi velit assumenda!</p>
+
+        <div class="header-main">
+            <div class="header-content container">
+                <div class="header-text">
+                    <h1>Titulo</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, beatae quibusdam assumenda
+                        facilis, dignissimos, eum blanditiis culpa temporibus quas dolorem laudantium sit.
+                    </p>
+                </div>
+                <div class="header-logo">
+                    <img src="./image/logo.png" alt="logomarca do projeto lei mais comigo" height="200">
+                </div>
             </div>
-            <div class="header-logo">
-                <img src="./image/logo.png" alt="logomarca do projeto leia mais comigo" height="200">
-            </div>
-            
         </div>
     </header>
+
+    <section class="card-content">
+        <div class="container">
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/400/300" alt="foto do livro">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/400/300" alt="foto do livro">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/400/300" alt="foto do livro">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/400/300" alt="foto do livro">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/400/300" alt="foto do livro">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/400/300" alt="foto do livro">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/400/300" alt="foto do livro">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/400/300" alt="foto do livro">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="container contact">
+        <div class="contact-nap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.3566484378184!2d-43.561412623972664!3d-22.90021253763754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be15839e68c4f%3A0x588a284ae162bc38!2sSenac%20Campo%20Grande!5e0!3m2!1spt-BR!2sbr!4v1728687334584!5m2!1spt-BR!2sbr" width="99%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+                <h2>Localização</h2>
+                <p>Rua dos livros,999 - Campo Grande - RJ</p>
+                <p>Tel: +55 21 99999-9999</p>
+            </div>
+        </div>
+        <form action="https://api.livros.com.br/coment" class="contact form">
+            <div class="form-group">
+                <!--<label for="nome">Nome</label>-->
+                <input type="text" id="nome" name="nome" placeholder="Nome">
+            </div>
+            <div>
+                <!--<label for="email">Email</label>-->
+                <input type="text" id="email" name="email" placeholder="E-mail">
+            </div>
+            <div>
+                <!--<label for="tel">Tel</label>-->
+                <input type="tel" id="tel" name="tel" placeholder="Telefone">
+            </div>
+            <div class="form-group">
+                <!--<label for="assunto">Assunto</label>-->
+                <select name="assunto" id="assunto">
+                    <option value="1">Assunto</option>
+                    <option value="2">Sugestão</option>
+                    <option value="3">Elogios</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea name="mensagem" id="mensagem" rows="5" placeholder="Mensagem"></textarea>
+
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Enviar">
+                <button>Enviar</button>
+                <button type="="reset>Limpar</button>
+
+            </div>
+
+
+
+        </form>
+    </section>
+
 </body>
+
 </html>
