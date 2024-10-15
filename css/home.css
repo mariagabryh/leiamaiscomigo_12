@@ -1,3 +1,5 @@
+@import "./form.css";
+@import "./nav.css";
 
 header {
     background-image: url(../image/background-top.jpg);
@@ -43,32 +45,6 @@ header {
     border-radius: 50%;
 }
 
-/* Navbar */
-nav ul {
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    list-style: none;
-}
-
-.nav-top {
-    line-height: 40px;
-    background-color: var(--black);
-}
-
-.nav-top li a {
-    text-decoration: none;
-    color: var(--white);
-    padding: 10px 20px;
-}
-
-.nav-top li a:hover {
-    color: var(--gray);
-    background-color: var(--white);
-    border-bottom: solid 4px var(--gray);
-}
 
 /* Cards */
 
@@ -123,7 +99,4 @@ nav li {
 .contact-nap p{
     font-size: 18px;
     margin-bottom: 10px;
-}
-.form-group{
-    display: flex;
 }

@@ -14,10 +14,11 @@
     <header>
         <nav class="nav-top">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="#">Agenda</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#cards">Galeria</a></li>
+                <li><a href="index.html#agenda">Agenda</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+                <li><a href="login.html">Entrar</a></li>
             </ul>
         </nav>
 
@@ -36,7 +37,7 @@
         </div>
     </header>
 
-    <section class="card-content">
+    <section class="card-content " id="cards">
         <div class="container">
 
             <div class="card">
@@ -121,7 +122,7 @@
 
         </div>
     </section>
-    <section class="container contact">
+    <section class="container contact" id="contato">
         <div class="contact-nap">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.3566484378184!2d-43.561412623972664!3d-22.90021253763754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be15839e68c4f%3A0x588a284ae162bc38!2sSenac%20Campo%20Grande!5e0!3m2!1spt-BR!2sbr!4v1728687334584!5m2!1spt-BR!2sbr" width="99%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div>
@@ -133,11 +134,11 @@
         <form action="https://api.livros.com.br/coment" class="contact form">
             <div class="form-group">
                 <!--<label for="nome">Nome</label>-->
-                <input type="text" id="nome" name="nome" placeholder="Nome">
+                <input type="text" id="nome" name="nome" placeholder="* Nome" required>
             </div>
             <div>
                 <!--<label for="email">Email</label>-->
-                <input type="text" id="email" name="email" placeholder="E-mail">
+                <input type="text" id="email" name="email" placeholder="* E-mail" required>
             </div>
             <div>
                 <!--<label for="tel">Tel</label>-->
@@ -152,18 +153,14 @@
                 </select>
             </div>
             <div class="form-group">
-                <textarea name="mensagem" id="mensagem" rows="5" placeholder="Mensagem"></textarea>
+                <textarea name="mensagem" id="mensagem" rows="5" placeholder="* Mensagem"></textarea required>
 
             </div>
 
-            <div class="form-group">
-                <input type="submit" value="Enviar">
+            <div class="form-group form-group-button">
                 <button>Enviar</button>
                 <button type="="reset>Limpar</button>
-
             </div>
-
-
 
         </form>
     </section>
