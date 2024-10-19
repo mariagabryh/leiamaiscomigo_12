@@ -30,3 +30,7 @@
     justify-content: right;
     gap: 10px;
 }
+
+.form-control:focus{
+    box-shadow: none;
+}
